@@ -1,7 +1,10 @@
 {
   "name": "vue2-mult-cascader",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "vue": "^2.6.0 || ^2.7.0",
+    "element-ui": "^2.15.14"
+  },
   "description": "Vue2 多级级联选择器组件",
   "keywords": ["vue2", "cascader"],
   "author": "wsq",
@@ -9,7 +12,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name mult-cascader --dest mult-cascader"
+
   },
   "dependencies": {
     "core-js": "^3.8.3",

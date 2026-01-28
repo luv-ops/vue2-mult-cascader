@@ -5,7 +5,7 @@ Vue.config.productionTip = false
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
-import MultCascader from './components/MultCascader.vue'
+import MultCascader from './package/MultCascader.vue'
 export default MultCascader
 new Vue({
   render: h => h(App),
