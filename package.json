@@ -1,7 +1,11 @@
 {
-  "name": "mult-cascader",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue2-mult-cascader",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "Vue2 多级级联选择器组件",
+  "keywords": ["vue2", "cascader"],
+  "author": "wsq",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
