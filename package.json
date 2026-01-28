@@ -1,7 +1,7 @@
 {
-  "name": "vue2-mult-cascader", // 你的包名（自定义）
-  "version": "1.0.0", // 版本号（每次更新建议递增）
-  "main": "src/index.js", // 包的入口文件（比如你的组件导出文件）
+  "name": "vue2-mult-cascader",
+  "version": "1.0.0",
+  "main": "src/index.js",
   "description": "Vue2 多级级联选择器组件",
   "keywords": ["vue2", "cascader"],
   "author": "你的名字",
