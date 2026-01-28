@@ -8,11 +8,11 @@ Vue2 多级选择器组件，支持单选和多选模式。
 **效果**
 
 多选(移动段):
-![](C:\Users\w3110\Desktop\y.png)
+<img width="1840" height="910" alt="image" src="https://github.com/user-attachments/assets/2cd2f2e0-faea-49e2-94a7-1593257fadd2" />
+
 
 单选(桌面段):
-
-![](C:\Users\w3110\Desktop\z.png)
+<img width="455" height="796" alt="image" src="https://github.com/user-attachments/assets/bf85e8bb-defe-47c1-9c97-5e217c4445fe" />
 
 ## 安装
 
