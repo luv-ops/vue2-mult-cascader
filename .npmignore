@@ -1,0 +1,22 @@
+# 忽略项目无关目录（根据你的项目结构调整）
+src/views/
+src/router/
+src/store/
+dist/
+public/
+node_modules/
+tests/
+# 忽略无关文件
+.git/
+.gitignore
+.env*
+*.log
+package-lock.json
+vue.config.js
+babel.config.js
+# 保留组件核心目录（必须写！确保组件代码被包含）
+!src/components/ElCascaderMulti/
+# 保留发布配置文件
+!package-component.json
+!README.md
+!LICENSE
