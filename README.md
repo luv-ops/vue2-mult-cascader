@@ -197,7 +197,22 @@ Vue.use(MultCascader)
 
 ```
 注意异步打开此组件时，需要先有数据源，否则会报错
-推荐在组件data中再定义一个变量判断数据源是否准备好
+推荐在组件data中再定义一个变量判断数据源是否准备好然后v-if
+     <MultCascader
+      v-if="ready"
+      ref="cascaderRef"
+      :drawer="showSingleCascader"
+      :dataSourse="treeData"
+      :names="tabNames"
+      :labels="tabLabels"
+      mode="single"
+      :color="themeColor"
+      :options="customOptions"
+      @close="handleClose2"
+      @finish="handleFinish"
+      @change="handleChange"
+    />
+
 比如:
 data(){
     return {
