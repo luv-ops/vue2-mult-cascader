@@ -5,15 +5,7 @@ Vue2 多级选择器组件，支持单选和多选模式。
 此组件依赖element-ui,只是el-drawer,el-tabs,el-tab-pane,el-checkbox
 你可以按需引入，不必像下列例子那样引入所有的element-ui
 
-**效果**
 
-多选(移动段):
-<img width="455" height="796" alt="image" src="https://github.com/user-attachments/assets/bf85e8bb-defe-47c1-9c97-5e217c4445fe" />
-
-
-单选(桌面段):
-
-<img width="1840" height="910" alt="image" src="https://github.com/user-attachments/assets/2cd2f2e0-faea-49e2-94a7-1593257fadd2" />
 
 ## 安装
 
