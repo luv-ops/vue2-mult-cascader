@@ -8,13 +8,11 @@ Vue2 多级选择器组件，支持单选和多选模式。
 **效果**
 
 多选(移动段):
-![](C:\Users\w3110\AppData\Roaming\marktext\images\2026-01-28-21-13-07-image.png)
-
-
+![](C:\Users\w3110\Desktop\y.png)
 
 单选(桌面段):
 
-![](C:\Users\w3110\AppData\Roaming\marktext\images\2026-01-28-21-11-18-image.png)
+![](C:\Users\w3110\Desktop\z.png)
 
 ## 安装
 
@@ -215,11 +213,8 @@ async openCascader() {
   // 打开选择器
   this.showSingleCascader = true
 }
-
 ```
 
 ## License
 
 MIT
-
-![](C:\Users\w3110\AppData\Roaming\marktext\images\2026-01-28-21-10-23-image.png)![](C:\Users\w3110\AppData\Roaming\marktext\images\2026-01-28-21-10-56-image.png)
