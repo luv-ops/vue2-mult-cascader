@@ -1,11 +1,11 @@
 # Vue2 MultCascader
 
-Vue2 多级选择器组件，支持单选和多选模式。
+# Vue2 多级选择器组件，支持单选和多选模式。
+
+# 适配移动端和桌面端
 
 此组件依赖element-ui,只是el-drawer,el-tabs,el-tab-pane,el-checkbox
 你可以按需引入，不必像下列例子那样引入所有的element-ui
-
-
 
 ## 安装
 
@@ -31,6 +31,7 @@ Vue.use(MultCascader)
 
 ### 组件使用
 
+```
 <template>
   <div id="app">
     <MultCascader
@@ -56,7 +57,7 @@ Vue.use(MultCascader)
           :color="themeColor"
           :options="customOptions"
           @close="handleClose"
-    
+
         />
         <button @click="showMultCascader = true">打开多选选择器</button>
         <div>已选择(最后一级个数)：{{ checkedIds.length }}</div>
@@ -76,9 +77,9 @@ Vue.use(MultCascader)
         <button @click="showSingleCascader = true">打开单选选择器</button>
       </div>
     </template>
-    
+
     <script>
-    
+
     export default {
       name: 'App',
       data() {
@@ -86,7 +87,7 @@ Vue.use(MultCascader)
           // 控制选择器显隐
           showMultCascader: false,
           showSingleCascader: false,
-    
+
           // 主题色（自定义）
           themeColor: '#409EFF',
           // 自定义字段映射（适配你的数据源字段名）
@@ -141,7 +142,7 @@ Vue.use(MultCascader)
           // 选中结果存储
           checkedIds: [],
           selectedResult: null
-    
+
         }
       },
       methods: {
@@ -153,7 +154,7 @@ Vue.use(MultCascader)
         },
         handleClose2() {
           this.showSingleCascader = false
-    
+
         },
         // 单选模式下选完最后一级触发（返回完整选中数据）
         handleFinish(res) {
@@ -161,7 +162,7 @@ Vue.use(MultCascader)
           this.selectedResult = res
           console.log('单选完成，选中数据：', res)
         },
-    
+
         // 单选 选中项变化时触发（实时返回选中的层级数据）
         handleChange(selectedLi) {
           console.log('选中项变化，当前层级数据：', selectedLi)
@@ -169,6 +170,7 @@ Vue.use(MultCascader)
       }
     }
     </script>
+```
 
 | 参数          | 类型      | 说明                         | 默认值                                              |
 | ----------- |:------- | -------------------------- | ------------------------------------------------ |
