@@ -32,19 +32,6 @@ Vue.use(MultCascader)
 ### 组件使用
 
 ```
-<template>
-  <div id="app">
-    <MultCascader
-      ref="cascaderRef"
-      :drawer="showMultCascader"
-      :dataSourse="treeData"
-      :names="tabNames"
-      :labels="tabLabels"
-      mode="multiple"
-      :color="themeColor"
-      :options="customOptions"
-      @close="handleClose"
-
     <template>
       <div id="app">
         <MultCascader
